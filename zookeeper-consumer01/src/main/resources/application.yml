@@ -1,0 +1,10 @@
+server:
+  port: 80
+spring:
+  application:
+    name: cloud-consumer01
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
+      discovery:
+        enabled: true
